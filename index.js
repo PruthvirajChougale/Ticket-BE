@@ -19,5 +19,5 @@ ConnectToDB();
 app.use("/",Routes);
 
 app.listen(PORT ,() => {
-    console.log(`You are listening to Port ${PORT}`);
+    console.log(`You are listening to Port ${PORT}.`);
 })
