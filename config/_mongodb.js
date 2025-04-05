@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 dotenv.config();
-const MongoUri = process.env.MONGODB;
+const MongoUri = process.env.MONGO_URL;
 
 const ConnectToDB =async () =>{
     try{
