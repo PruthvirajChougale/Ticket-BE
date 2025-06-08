@@ -16,7 +16,7 @@ const server = http.createServer(app);
 
 export const io = new Server (server,{
     cors: {
-        origin: ["http://13.203.150.86"],
+        origin: ["http://43.205.87.196"],
         methods: ["GET", "POST"],
         credentials: true,
       },
