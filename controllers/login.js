@@ -26,7 +26,7 @@ const LoginUser =async (req,res) =>{
         }
     }
 
-    const jwtToken = jwt.sign(payload,jwtKey,{expiresIn:"2h"});
+    const jwtToken = jwt.sign(payload,jwtKwey,{expiresIn:"2h"});
     res.json({message:"logged in successfully", jwtToken});
 }
 catch(error){

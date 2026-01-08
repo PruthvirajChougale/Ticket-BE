@@ -16,7 +16,7 @@ const server = http.createServer(app);
 
 export const io = new Server (server,{
     cors: {
-        origin: ["http://43.205.87.196"],
+        origin: ["https://isrogeonli.in"],
         methods: ["GET", "POST"],
         credentials: true,
       },
